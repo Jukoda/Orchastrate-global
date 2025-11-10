@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORCHASTRATE GLOBAL</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+  <!-- Accessible skip link -->
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- NAV (CSS-only mobile toggle) -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <div class="brand-mark">OG</div>
+        <div class="brand-text">
+          <span class="brand-title">Orchastrate Global</span>
+          <small class="brand-sub">Powering payments</small>
+        </div>
+      </div>
+
+      <!-- checkbox toggle for mobile nav -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="cta-desktop"><a class="btn btn-primary" href="#">Get started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-left">
+          <p class="eyebrow">Payment orchestration • unified API</p>
+          <h1>Orchestrate payments with a unified, developer-friendly API</h1>
+          <p class="lead">Connect multiple gateways, increase approval rates with smart routing, and manage payouts — all from one clean interface.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#">Get started</a>
+            <a class="btn btn-ghost" href="#">See docs</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li><strong>98.7%</strong><span>Approval rate</span></li>
+            <li><strong>6+</strong><span>Gateways</span></li>
+            <li><strong>24/7</strong><span>Support</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <!-- Replace with a real SVG/PNG illustration -->
+          <div class="mock-device">
+            <div class="card-graph">
+              <div class="graph-title">Transactions</div>
+              <div class="graph-bar"></div>
+              <div class="graph-stats">
+                <span>1.2M / month</span>
+                <span>+4.2% approval</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED / PARTNERS -->
+    <section class="trusted">
+      <div class="wrap">
+        <p class="muted center">Trusted by teams worldwide</p>
+        <div class="logos">
+          <div class="logo-item">Acquirer</div>
+          <div class="logo-item">Gateway</div>
+          <div class="logo-item">Bank</div>
+          <div class="logo-item">Retail</div>
+          <div class="logo-item">Market</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+      <div class="wrap">
+        <div class="section-header">
+          <h2>Why choose us</h2>
+          <p class="muted">Everything you need to build reliable, scalable payment flows.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="feature">
+            <div class="feature-icon">🔗</div>
+            <h3>Unified API</h3>
+            <p>Talk to one API and connect to many payment providers without repeating integration work.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">⚡</div>
+            <h3>Smart routing</h3>
+            <p>Route transactions dynamically to maximize approvals and minimize transaction costs.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">🔒</div>
+            <h3>Risk & fraud</h3>
+            <p>Built-in fraud signals, chargeback handling, and monitoring to keep businesses secure.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="how">
+      <div class="wrap how-inner">
+        <div class="how-step">
+          <div class="step-number">1</div>
+          <h4>Sign up & connect</h4>
+          <p>Register and wire up your preferred gateways and accounts in minutes.</p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">2</div>
+          <h4>Route smartly</h4>
+          <p>Define routing rules, fallbacks, and A/B gateway strategies to optimize approvals.</p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">3</div>
+          <h4>Scale & monitor</h4>
+          <p>Monitor performance, automate retries, and scale globally with confidence.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING (simple) -->
+    <section id="pricing" class="pricing">
+      <div class="wrap">
+        <div class="section-header">
+          <h2>Plans that scale with you</h2>
+          <p class="muted">From startups to enterprise, pick the plan that fits your needs.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="plan card">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <p class="muted">Basic routing & single gateway</p>
+            <a class="btn btn-outline" href="#">Choose</a>
+          </div>
+
+          <div class="plan card featured">
+            <h3>Business</h3>
+            <p class="price">Custom</p>
+            <p class="muted">Multi-gateway orchestration & routing</p>
+            <a class="btn btn-primary" href="#">Contact sales</a>
+          </div>
+
+          <div class="plan card">
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <p class="muted">Full platform + SLAs</p>
+            <a class="btn btn-outline" href="#">Talk to us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA BAR -->
+    <section id="contact" class="cta-bar">
+      <div class="wrap cta-inner">
+        <div>
+          <h3>Ready to lift payments off your stack?</h3>
+          <p class="muted">Start a free trial or schedule a demo with our team.</p>
+        </div>
+        <div>
+          <a class="btn btn-primary" href="#">Get started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="foot-left">
+        <div class="brand">
+          <div class="brand-mark">LS</div>
+          <div class="brand-text">
+            <span class="brand-title">LandingSite</span>
+            <small class="brand-sub">AI Preview</small>
+          </div>
+        </div>
+        <p class="muted">© <span id="year">2025</span> LandingSite. All rights reserved.</p>
+      </div>
+
+      <div class="foot-right">
+        <nav class="foot-nav">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
